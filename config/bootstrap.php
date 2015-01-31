@@ -30,6 +30,12 @@
  * You can also use this to include or require any files in your application.
  *
  */
+    define('ROLE_ROOT', 1); 
+	define('ROLE_ADMIN', 2);
+    define('ROLE_TAQUILLA', 3);
+    define('ROLE_ONLINE', 4);
+	ini_set("memory_limit","64M");
+	ini_set("max_execution_time", "1200");
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
  * This is related to Ticket #470 (https://trac.cakephp.org/ticket/470)
